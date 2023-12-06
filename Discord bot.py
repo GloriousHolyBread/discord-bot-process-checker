@@ -13,7 +13,7 @@ PROCESS_NAME = 'Process ID'  # Replace with your process name
 intents = discord.Intents.default()
 intents.typing = False
 intents.presences = False
-intents.messages = True
+intents.message_content = True
 
 # Initialize the bot with intents
 bot = commands.Bot(command_prefix='!', intents=intents)
