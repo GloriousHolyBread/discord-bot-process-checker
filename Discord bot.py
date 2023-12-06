@@ -7,7 +7,7 @@ from discord.ext import commands
 TOKEN = 'TOKEN'
 
 # Process name to check
-PROCESS_NAME = 'java.exe'  # Replace with your process name
+PROCESS_NAME = 'Process ID'  # Replace with your process name
 
 # Initialize intents
 intents = discord.Intents.default()
